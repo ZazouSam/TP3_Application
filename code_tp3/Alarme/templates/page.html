@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Systeme d'alarme</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" />
+        <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 80%;
+              margin-left: auto;
+              margin-right: auto;
+
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
+    </head>
+    <body style="background-color: rgb(169, 180, 142)">
+        <div class="w3-center">
+            <h1>Bienvenue sur le site du systeme d'alarme</h1>
+        </div>
+        <br><br><br><br>
+
+        <h2 style="margin-left: 190px;">Historique des alarmes</h2>
+        <table>
+            <tr>
+                <th>DATE</th>
+                <th>HEURE</th>
+                <th>DISTANCE</th>
+            </tr>
+            <tr>
+                <td>{{ date1 }}</td>
+                <td>{{ heure1 }}</td>
+                <td>{{ distance1 }}</td>
+            </tr>
+            <tr>
+                <td>{{ date2 }}</td>
+                <td>{{ heure2 }}</td>
+                <td>{{ distance2 }}</td>
+            </tr>
+            <tr>
+                <td>{{ date3 }}</td>
+                <td>{{ heure3 }}</td>
+                <td>{{ distance3 }}</td>
+            </tr>
+            <tr>
+                <td>{{ date4 }}</td>
+                <td>{{ heure4 }}</td>
+                <td>{{ distance4 }}</td>
+            </tr>
+            <tr>
+                <td>{{ date5 }}</td>
+                <td>{{ heure5 }}</td>
+                <td>{{ distance5 }}</td>
+            </tr>
+           
+        </table>
+
+
+
+        <br><br><br><br><br><br><br><br><br><br>    
+
+
+
+
+    </body>
+</html>
